@@ -1,0 +1,217 @@
+body {
+    background-color: black;
+}
+
+.container {
+    display: block;
+    width: 1420px;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    overflow: hidden;
+}
+
+
+/* Header */
+header {
+    width: 100%;
+    height: 55px;
+    background-color: white;
+    position:absolute;
+    z-index: 5;
+    opacity: 0.5;
+}
+
+
+/* Top section */
+.top_section {
+    display: flex;
+    justify-content: center;
+    gap: 450px;
+    align-items: start;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 40px;
+}
+
+.logo {
+    margin-top: 50px;
+    width: 300px;
+    height: 300px;
+}
+
+.picture_top_section {
+    width: 600px;
+    height: 400px;
+    margin-left: 20px;
+}
+
+.white_strip {
+    width: 100%;
+    height: 15px;
+    background-color: white;
+    opacity: 0.3;
+}
+
+.contactBlock {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    font-size: 17px;
+    gap: 8px;
+}
+
+.contact {
+    display: flex;
+    margin: 0;
+}
+
+
+
+/* Top Video Section */
+.topVideoSection {
+    background-color: #1f1f1f;
+}
+
+.videoContRow {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+.video-container {
+    position: relative;
+    display: inline-block;
+    cursor: pointer;
+}
+  
+.video-placeholder {
+    display: block;
+}
+  
+.video {
+    width: 400px;
+    height: 300px;
+}
+  
+
+
+/* Discription section */
+.description_section {
+    padding: 50px 25px;
+}
+
+.text_top_section_one {
+    color: #eaca5b;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 500;
+    font-size: 40px;
+    text-align: center;
+    margin: 0px 0px 40px 0px;
+}
+
+.text_top_section_second {
+    color: #b43200;
+    margin: 0px 0px 40px 0px;
+}
+
+.service_description {
+    display: flex;
+    gap: 60px;
+    margin-bottom: 20px;
+    overflow: hidden;
+    max-width: 100%;
+}
+
+.servDescPicCont {
+    width: 600px;
+    height: 400px;
+    background-color: aliceblue;
+    transition: transform 0.3s ease;
+    border-radius: 15px;
+}
+
+.servDescipTextCont {
+    background-color: rgb(25, 24, 24);
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 24px;
+    width: 650px;
+    height: 150px;
+    padding: 40px;
+}
+
+.servDescPicCont:hover {
+    cursor: pointer;
+    transform: scale(1.3);
+}
+
+
+/* botoomVideoSection */
+.botoomVideoSection {
+    overflow: hidden;
+}
+
+/* Slider */
+.sliderClip {
+    width: 300px;
+    height: 350px;
+}
+
+
+/* material */
+.material {
+    padding: 10px;
+}
+
+/* Footer */
+.footerSection {
+    display: flex;
+    gap: 150px;
+    justify-content: center;
+}
+
+.contactLogo {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.contactBlock {
+    display: flex;
+    flex-direction: column;
+}
+
+.logo.facebook {
+    width: 70px;
+    height: 70px;
+    margin: 0;
+}
+
+.logo.location {
+    width: 90px;
+    height: 90px;
+    margin: 0;
+}
+
+.logo.instagram {
+    width: 150px;
+    height: 90px;
+    margin: 0;
+}
+
+.qrcode {
+    width: 250px;
+    height: 250px;
+    border-radius: 20px;
+}
+
+.logoBottom {
+    width: 250px;
+    height: 250px;
+}
