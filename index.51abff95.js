@@ -1,0 +1,2 @@
+document.querySelectorAll(".video-container").forEach((e=>{const l=e.querySelector(".video");l.addEventListener("mouseenter",(()=>{l.play()})),l.addEventListener("mouseleave",(()=>{l.pause(),l.currentTime=0})),l.addEventListener("click",(()=>{l.requestFullscreen?l.requestFullscreen():l.mozRequestFullScreen?l.mozRequestFullScreen():l.webkitRequestFullscreen?l.webkitRequestFullscreen():l.msRequestFullscreen&&l.msRequestFullscreen()}))}));
+//# sourceMappingURL=index.51abff95.js.map

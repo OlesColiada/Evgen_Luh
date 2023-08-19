@@ -1,0 +1,2 @@
+document.querySelectorAll(".video-container").forEach((function(e){var n=e.querySelector(".video");n.addEventListener("mouseenter",(function(){n.play()})),n.addEventListener("mouseleave",(function(){n.pause(),n.currentTime=0})),n.addEventListener("click",(function(){n.requestFullscreen?n.requestFullscreen():n.mozRequestFullScreen?n.mozRequestFullScreen():n.webkitRequestFullscreen?n.webkitRequestFullscreen():n.msRequestFullscreen&&n.msRequestFullscreen()}))}));
+//# sourceMappingURL=index.083c0da7.js.map
